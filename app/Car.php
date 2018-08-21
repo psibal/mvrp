@@ -10,6 +10,7 @@ class Car extends Model
 
     protected static $data = [
       [
+        'id' => 101,
         'plateNumber' => 'EPE68ET',
         'color' => 'White',
         'model' => 'Toyota Highlander',
@@ -20,6 +21,7 @@ class Car extends Model
         'expiryDate' => '2019-02-13'
       ],
       [
+        'id' => 102,
         'plateNumber' => 'KSF992EF',
         'color' => 'Silver',
         'model' => 'Honda Accord',
@@ -30,6 +32,7 @@ class Car extends Model
         'expiryDate' => '2019-03-11'
       ],
       [
+        'id' => 103,
         'plateNumber' => 'KRD419EZ',
         'color' => 'Blue',
         'model' => 'Toyota Corolla',
@@ -40,6 +43,7 @@ class Car extends Model
         'expiryDate' => '2019-07-01'
       ],
       [
+        'id' => 104,
         'plateNumber' => 'IKJ914EZ',
         'color' => 'Yellow',
         'model' => 'Lexus RX330',
@@ -50,6 +54,7 @@ class Car extends Model
         'expiryDate' => '2019-05-24'
       ],
       [
+        'id' => 105,
         'plateNumber' => 'APP756IE',
         'color' => 'Black',
         'model' => 'Toyota Avalon',
