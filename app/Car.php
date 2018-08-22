@@ -76,6 +76,6 @@ class Car extends Model
     {
         $result = collect(self::$data)->where('plateNumber', $plateNumber);
 
-        return $result->all();
+        return $result->first();
     }
 }
